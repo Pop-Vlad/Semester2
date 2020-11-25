@@ -1,0 +1,23 @@
+login as: ex1955
+ex1955@172.30.0.9's password:
+Last login: Mon May  6 12:46:04 2019 from 172.30.112.178
+[ex1955@exam ~]$ ls
+EXAM.txt  p  p.c
+[ex1955@exam ~]$ vim EXAM.txt
+Write a C program that creates two child processes: A and B.
+Process B generates one random number N between 100 and 1000.
+Process A keeps generating and sending random numbers between
+50 and 1050 to B until the absolute difference between N and
+a number is less than 50.
+B prints the generated numbers and all the received numbers.
+A sends to the parent the number of numbers generated until
+the condition was met, and the parent prints it.
+The processes communicate through pipes.
+
+Example:
+Process B has generated 433
+B received 244; difference: 189
+B received 367; difference: 66
+B received 723; difference: 290
+B received 465; difference: 32
+Process A has generated 4 numbers

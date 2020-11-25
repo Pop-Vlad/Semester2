@@ -1,0 +1,6 @@
+﻿cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+  Main.cpp
+  SortedMultiMap.cpp
+c:\users\popvl\source\repos\dsa laboratory4\dsa laboratory4\sortedmultimap.cpp(196): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  DSA Laboratory4.vcxproj -> C:\Users\popvl\source\repos\DSA Laboratory4\Debug\DSA Laboratory4.exe

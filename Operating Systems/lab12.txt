@@ -1,0 +1,17 @@
+un porg cu 7 threaduri
+fiecate genereaze 100 nr 0-1000
+pt fiecare verifica resul la imp cu 10 si aduna la un array dupa rest
+afis array.
+
+
+Create two programs A and B.
+Program A receives as command line arguments
+multiple file names.
+For each file name, it creates a child process
+that calculates the file size in bytes and sends it back to the parent.
+After all the file sizes have been computed,
+process A sends them via fifo one by one to process B.
+Process B reads the file sizes and, after all numbers are received,
+creates a thread for each one that counts the number of divisors of the
+number
+and writes it in a file named "divisor_count".

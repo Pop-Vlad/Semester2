@@ -1,0 +1,4 @@
+
+Lecture - Boian Rares - http://www.cs.ubbcluj.ro/~rares/course/os/
+Laboratory - Muresan Horea - http://www.cs.ubbcluj.ro/~daniel/so/ (Ticle Daniel)
+Seminar - Calin Alina - http://www.cs.ubbcluj.ro/~alinacalin/

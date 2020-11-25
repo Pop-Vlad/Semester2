@@ -1,0 +1,7 @@
+﻿cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+  Heap.cpp
+  Main.cpp
+  P1.cpp
+  TestP1.cpp
+  Generating Code...
+  Laboratory5.vcxproj -> C:\Users\popvl\source\DSA\Laboratory5\Debug\Laboratory5.exe

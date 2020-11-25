@@ -1,0 +1,7 @@
+dsolve
+unapply
+plot
+dplot
+dfieldplot
+euler simplu
+euler implicit

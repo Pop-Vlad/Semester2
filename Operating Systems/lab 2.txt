@@ -1,0 +1,59 @@
+
+lab2.c:
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc, char** argv)
+{
+        int length, height, i, j;
+        FILE* f = fopen(argv[1], "r");
+        fscanf(f, "%d", &height);
+        fscanf(f, "%d", &length);
+        int **m = (int**) malloc(sizeof(int*)*height);
+        for(i=0; i<height; i++)
+                m[i] = (int*) malloc(sizeof(int)*length);
+        for(i=0; i<height; i++)
+                for(j=0; j<length; j++)
+                        fscanf(f, "%d", &m[i][j]);
+        for(i=0; i<height; i++)
+        {
+                for(j=0; j<length; j++)
+                        printf("%d ", m[i][j]);
+                printf("\n");
+        }
+        for(i=0; i<height; i++)
+                free(m[i]);
+        free(m);
+        fclose(f);
+        return 0;
+}
+
+lab2-data.txt:
+
+6 4
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+17 18 19 20
+21 22 23 24
+
+lab2-exe:
+
+^?ELF^B^A^A^@^@^@^@^@^@^@^@^@^B^@>^@^A^@^@^@°^E@^@^@^@^@^@@^@^@^@^@^@^@^@È^U^@^@^@^@^@^@^@^@^@^@@^@8^@^H^@@^@%^@"^@^F^@^@^@^E^@^@^@@^@^@^@^@^@^@^@@^@@^@^@^@^@^@@^@@^@^@^@^@^@À^A^@^@^@^@^@^@À^A^@^@^@^@^@^@^H^@^@^@^@^@^@^@^C^@^@^@^D^@^@^@^@^B^@^@^@^@^@^@^@^B@^@^@^@^@^@^@^B@^@^@^@^@^@^\^@^@^@^@^@^@^@^\^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^E^@^@^@^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@@^@^@^@^@^@^\
+^@^@^@^@^@^@^\
+^@^@^@^@^@^@^@^@ ^@^@^@^@^@^A^@^@^@^F^@^@^@
+^@^@^@^@^@^@
+`^@^@^@^@^@
+`^@^@^@^@^@^\^B^@^@^@^@^@^@0^B^@^@^@^@^@^@^@^@ ^@^@^@^@^@^B^@^@^@^F^@^@^@H
+^@^@^@^@^@^@H
+`^@^@^@^@^@H
+@                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @                                                                                                                       @
+
+commands:
+
+gcc -Wall -g -o lab2-exe lab2.c
+./lab2-exe
+valgrind ./lab2-exe lab2-data.txt
+
+test -- correct compilation errors with a given code

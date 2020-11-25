@@ -1,0 +1,29 @@
+    }
+    return p != NULL;
+}
+
+void clear(struct node* head) {
+    if(head == NULL) {
+        return;
+    }
+    clear(head->next);
+    free(head->name);
+    free(head);
+}
+
+int main(int argc, char** argv) {
+    char name[64];
+    struct node* head;
+
+    while(scanf("%s", name) == 1) {
+        if(known(head, name)) {
+            printf("Still around %s, eh?\n", name);
+        }
+        else {
+            head = add(head, name);
+            printf("Hello %s\n", name);
+        }
+    }
+    clear(head);
+    return 0;
+}

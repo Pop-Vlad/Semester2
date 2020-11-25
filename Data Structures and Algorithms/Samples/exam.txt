@@ -1,0 +1,12 @@
+1. Era un linked list care atunci cand faceai search pe un elem, daca era in tabel ii facea swap cu previous, trebuia implementata functia.
+2. A. Sa inserezi un sir in AVL si sa desenezi dupa fiecare pas
+2. B. Sa verifici daca un array e binary heap sau nu
+2. C. Sa inserezi un sir intr.un hash table cu coalesced chaining
+3. 1. Ti se da preorder si inorder la un bt si tu sa afli postorder plus desen
+3. 2. Cum implementezi un stack pe un dequeue
+3. 3. sa transformi o exprezie din infix in postfix, sa faci stack.ul si queue.ul
+3. 4. Ti sa da m si alpha la uj hash table si sa zici numărul maxim de elementele dintr.un linked list, separate chaining
+3. 5. Ti se da sa verifici sequences dintr.un bst si sa zici care ar putea fi valida pentru a gasi valoarea 45
+3. 6. La care implementare a setului functia de search e mai eficienta direct pe reprezentare decat prin iterator 
+4. Implementare sorted map functia insert pe un hash table cu separate chaining
+5. Implementare algoritm care primeste un binary tree si verifica daca este un min heap sau nu

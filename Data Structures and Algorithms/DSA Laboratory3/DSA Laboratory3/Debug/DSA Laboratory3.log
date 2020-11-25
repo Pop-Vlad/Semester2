@@ -1,0 +1,11 @@
+﻿cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+  ExtendedTest.cpp
+  Main.cpp
+  MultiMap.cpp
+  MultiMapIterator.cpp
+c:\users\popvl\source\repos\dsa laboratory3\dsa laboratory3\multimapiterator.cpp(15): error C2819: type 'MultiMap' does not have an overloaded member 'operator ->'
+  c:\users\popvl\source\repos\dsa laboratory3\dsa laboratory3\multimap.h(30): note: see declaration of 'MultiMap'
+  c:\users\popvl\source\repos\dsa laboratory3\dsa laboratory3\multimapiterator.cpp(15): note: did you intend to use '.' instead?
+c:\users\popvl\source\repos\dsa laboratory3\dsa laboratory3\multimapiterator.cpp(15): error C2232: '->MultiMap::number_of_elements': left operand has 'class' type, use '.'
+  ShortTest.cpp
+  Generating Code...

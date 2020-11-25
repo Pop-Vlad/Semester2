@@ -1,0 +1,38 @@
+﻿cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+  Model.cpp
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(67): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1323): note: see declaration of 'itoa'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(68): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(69): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(147): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(157): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(159): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1323): note: see declaration of 'itoa'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(160): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(161): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(171): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(181): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(180): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(183): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1323): note: see declaration of 'itoa'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(184): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(185): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(223): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(229): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(261): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(273): warning C4018: '<': signed/unsigned mismatch
+c:\users\popvl\source\repos\graphalgorithms1\graphalgorithms1\model.cpp(286): warning C4018: '<': signed/unsigned mismatch
+  GraphAlgorithms1.vcxproj -> C:\Users\popvl\source\repos\GraphAlgorithms1\Debug\GraphAlgorithms1.exe

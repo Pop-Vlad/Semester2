@@ -1,0 +1,17 @@
+1) shell command to find all lines with a number between 10-99
+2) shell command to find all lines with at least a word of form aBcDeFgH...
+3) shell command to print the last word on each line with more than 5 words
+4) shell command to count the number of files in a directory (recursively)
+5) shell script to chmod 700 for all .sh files in the current directory for which the current user has execute permissions
+6) ceva for loop cu un if si un fork si trebuiau numarate nr. de procese fara procesul parinte
+7) diagrama proceselor pe care le creeaza cateva linii de cod (creau procese in loop infinit)
+10)ce vor afisa niste linii de cod cu 2 open()-uri si un printf. Nu afisau nimic ca dupa primul open era blocat calling thread-ul
+12) de ordonat 3 task-uri pt a minimiza intarzierile
+13) Ceva cu nr de blocuri de memorie care pot fi accesate intr-o anumita situatie
+14) pro si contra in comparatia a 2 metode de memory allocation policies. Cred ca variable partitions si virtual paged dar nu-s sigur
+15) cand ai incarca in memorie paginile unui program deschis
+16) Un exercitiu cu set-uri de cache (care ar fi mai rapid in executarea unei serii date de operatii)
+17) Cand trece un proces din starea RUN in starea SWAP
+18) ce se intampla cu un hard link cand se sterge fisierul la care pointeaza
+19) o metoda de dealock prevention (cu ceva conditii parca, una dintre metode se dadea ca "nu e aplicabila")
+20) cand pot deschide 2 procese un pipe intre ele

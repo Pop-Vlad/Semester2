@@ -1,0 +1,25 @@
+Simon enters your security room, holding aloft a pancake shaped piece of tech. He tells you it's a Clean-R-4U domestic housekeeping robot, a top shelf product from one of the more expensive stores around the foyer. He wants you to test it out by toying with its settings and sending it out to clean one of the tiled backrooms of the furniture emporium – it had apparently been sprayed with what Simon could only hope had once been chunky tomato sauce.
+
+Each tile has an x and a y coordinate: the bottom left tile is (0, 0) and the top right is (10, 10). Implement an application with a console based user interface allowing you to simulate the movement of a cleaner bot in the room. When the application starts, the initial position of the robot in the room is given.
+
+The application should provide the following features:
+
+Move the cleaner bot. The robot can only be moved in any of the following directions: up, down, right, left. After the robot is moved, show its new position in the backroom (2p). If the robot is near a wall and the user tries to move it “into” the wall, the robot should not be moved and a message will be shown (1.5p). Also, the robot cannot be moved on a tile which has already been cleaned; in this case, a message will be shown (1.5p).
+Show all the tiles that have already been cleaned (1p), as well as the percentage of cleaned tiles in the backroom (out of the total tiles) (1p).
+Please input at least 5 bots to your initial list of bots (from the source code).
+
+Write specifications and white-box tests for the following functions:
+
+Function which moves the cleaner bot (the repository/controller function). (0.5 – specification, 0.5 – test)
+Function which computes the percentage of cleaned tiles in the backroom (controller function). (0.5 – specification, 0.5 – test)
+The application must use a layered architecture. If you do not use a layered architecture, the maximum score for each requirement is 50% of the indicated score.
+
+1p – Default
+
+Allotted time: 70 minutes.
+
+You may use exclusively the following sites for documentation:
+
+http://en.cppreference.com/w/
+
+http://www.cplusplus.com/

@@ -1,0 +1,20 @@
+Write a program that creates 3 processes, A1, A2 and A3. The main program/process
+will send to A1 a positive integer read from keyboard. Process A1 adds 1 to the
+number and checks if the result is a multiple of 7 or contains the digit 7 if
+neither condition is true, the process will print then number and send it to A2;
+if the number does contain digit 7 or is multiple of 7 than the process will print
+‘Boltz’ and send the number to A2. A2 will receive the number and process it in the
+same manner, sending it to A3 afterwards. A3 will do the same as A1 and A2 and then
+send the resulted number to A1. The game will continue between the three processes
+for 5 rounds, then all processes will terminate.
+Use pipes for communication.
+
+Threads
+
+Write a program that creates 7 threads that each generate random numbers.
+If the number is odd the thread increments a global variable named odd_numbers,
+else, it increments another global variable named even_numbers.
+The threads keep generating random numbers until both even_numbers and odd_numbers
+are greater than 100, at which point they stop.
+After the threads terminate, the main program prints the two variables.
+Use efficient synchronisation mechanisms.
